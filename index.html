@@ -1,0 +1,167 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf_8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Alaa Badwan Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	
+	<body>
+		<section class="hero" background-image="background.jpg>
+			<div class="main-width">
+				<header>
+					<div class="logo" style="padding-left: 20px">
+						<i class="fa-solid fa-a"></i>
+					</div>
+					
+					<nav>
+						<div class="hamb">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<ul class="nav-list">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="#aboutMe">About</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Works</a></li>
+							<li class="btn"><a href="#contactme">Contact Me</a></li>
+						
+						</ul>
+					</nav>
+				</header>
+				
+				<div class="container" style="padding-left: 20px; padding-top:50px">
+					<div class="hero-text">
+						<h3>Hi, There!</h3>
+						<h1>I Am <span class="input"></span></h1>
+						<p>II am looking for work/Training in an institution where I can develop myself and help company to achieve its objectives by
+						utilizing my technical knowledge and my skills in Computer Information Systems field.
+						</p>
+						<div class="social">
+							<a href="https://web.facebook.com/profile.php?id=100010729115144"><i class="fa-brands fa-square-facebook"></i></a>
+							<a href="https://twitter.com/alaabadwan9?s=11&t=FrkWuNmJGVSmYwUYC5YssA"><i class="fa-brands fa-square-twitter"></i></a>
+							<a href="https://www.instagram.com/alaabadwan70"><i class="fa-brands fa-instagram"></i></a>
+							<a href="https://www.linkedin.com/in/alaa-badwan-08752818a"><i class="fa-brands fa-linkedin"></i></a>
+							<a href="#" onclick="myEmail()"><i class="fa-solid fa-envelope"></i></a>
+						</div>
+						<button type="button"><a href="#aboutMe" style="color:white">More About Me</a></button>
+					</div>
+					<div class="bottom" style="padding-top:85px; text-align:center">
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<script type="text/javascript" src="script.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			var typed = new Typed(".input", {strings:["Alaa Badwan.", "Web Developer." , "UX Designer." , "Photographer."],
+				typeSpeed: 70, 
+				backSpeed: 60, 
+				loop: true 
+			});
+		</script>
+		<script type="text/javascript">
+			function myEmail(){
+				alert("My Email Is: badwan415@gmail.com");
+			}
+			function myPhoneNumber(){
+				alert("My Phone Number Is: +962791698043");
+			}
+		</script>
+		
+		<section class="aboutme" id="aboutme" >
+			<div class="center" >
+				<h2 id="aboutMe">About Me</h2>
+				<p><strong>In this section I would like to tell you a little bit about myself in terms of education,
+				skills and certifications that I have obtained in learning programming.</strong>
+				</p>
+			</div>
+			
+			<div class="aboutme-content" style="align:center">
+				<div class="row">
+					<i class="fa-solid fa-school"></i>
+					<h3>Education</h3>
+					<p>I have been graduated in University Of Jordan [2018-2022] from 
+						Computer Information Systems Major(CIS), King Abdullah || School of 
+						Information Technology with GPA [3.07] Very Good.</p>
+				</div>
+				<div class="row">
+					<i class="fa-sharp fa-solid fa-brain"></i>
+					<h3>Skills</h3>
+					<ul>
+						<li> Microsoft Office.</li>
+						<li> Adobe Photoshop and Adobe premiere.</li>
+						<li> Team Player.</li>
+						<li> Self-Lerner.</li>
+						<li> GitHub.</li>
+					</ul>
+				</div>
+				<div class="row">
+					<i class="fa-solid fa-certificate"></i>
+					<h3>Certificates</h3>
+					<ol>
+						<li> Java
+							<ul>
+								<li>(Udemy: Java for Beginners-Learn all the Basics of Java)</li>
+							</ul>
+						</li>
+						<li> Python
+							<ul>
+								<li> (Coursera: Programming for Everybody<br> (Getting Started with 
+									Python) University of Michigan)</li>
+								<li> (Coursera: Python Data Structures University of Michigan)</li>
+							</ul>
+						</li>
+						<li> HTML, CSS and JavaScript
+							<ul>
+								<li>(Udemy: Learn HTML,CSS and JavaScript For Beginners)</li>
+							</ul>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</section>
+		<br>
+		<hr>		
+		
+		<section class="contactme" id="contactme">
+			<div class="center" >
+				<h2 id="contactme">Contact Me</h2>
+				<p><strong>You can contact me on the following accouts</strong></p>
+			</div>
+			<div class="social-t">
+				<a href="https://web.facebook.com/profile.php?id=100010729115144"><i class="fa-brands fa-square-facebook"></i></a>
+				<a href="https://twitter.com/alaabadwan9?s=11&t=FrkWuNmJGVSmYwUYC5YssA"><i class="fa-brands fa-square-twitter"></i></a>
+				<a href="https://www.instagram.com/alaabadwan70"><i class="fa-brands fa-instagram"></i></a>
+				<a href="https://www.linkedin.com/in/alaa-badwan-08752818a"><i class="fa-brands fa-linkedin"></i></a>
+				<a href="#" onclick="myEmail()"><i class="fa-solid fa-envelope"></i></a>
+				<a href="#" onclick="myPhoneNumber()" ><i class="fa-solid fa-phone"></i></a>
+			</div>
+		</section>
+		
+		<table width="100%" height="60" bgcolor="black" cellpadding="5" cellspacing="5" border="0">
+            <tr>
+				<td align="center">
+					<font style="color:white" face="verdana, geneva, sans-serif"><a href="index.html" style="color:white">Home</a>
+					- <a href="#aboutme"style="color:white" >About</a>
+					- <a href="#" style="color:white">Services</a> - <a href="#contactme" style="color:white">Contact Me</a> </font>
+				</td>
+            </tr>
+			
+			<tr>
+				<td align="center"><font color="white" face="verdana, geneva, sans-serif">&copy 2022 Alaa Badwan - All Rights Reserved.</font></td>
+			</tr>
+        </table>
+	</body>
+</html>
